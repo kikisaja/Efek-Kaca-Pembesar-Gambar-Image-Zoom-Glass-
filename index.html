@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efek Kaca Pembesar Gambar (Image Zoom Glass)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Pratinjau Detail Produk</h1>
+            <p>Arahkan kursor mouse ke gambar untuk melihat detail menggunakan kaca pembesar.</p>
+        </header>
+
+        <main class="product-card">
+            <!-- Area Gambar dengan Kaca Pembesar -->
+            <div class="img-zoom-container" id="zoomContainer">
+                <img id="myImage" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop" alt="Jam Tangan Modern">
+                <!-- Elemen kaca pembesar akan dibuat secara dinamis oleh JavaScript -->
+            </div>
+
+            <!-- Detail Produk -->
+            <div class="product-details">
+                <span class="badge">Produk Unggulan</span>
+                <h2>Jam Tangan Modern Elegant Edition</h2>
+                <p class="price">Rp 1.250.000</p>
+                <p class="description">
+                    Jam tangan analog premium dengan material stainless steel berkualitas tinggi, kaca anti-gores, dan ketahanan air hingga 50 meter. Sangat cocok untuk gaya busana formal maupun kasual.
+                </p>
+                <button class="btn-buy">Tambah ke Keranjang</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
